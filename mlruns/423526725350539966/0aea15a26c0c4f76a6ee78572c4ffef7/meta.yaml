@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sarthak/Multivideo_Objectdetection_MLOPS_Project/mlruns/423526725350539966/0aea15a26c0c4f76a6ee78572c4ffef7/artifacts
+end_time: 1714644919193
+entry_point_name: ''
+experiment_id: '423526725350539966'
+lifecycle_stage: active
+run_id: 0aea15a26c0c4f76a6ee78572c4ffef7
+run_name: train
+run_uuid: 0aea15a26c0c4f76a6ee78572c4ffef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714644898584
+status: 3
+tags: []
+user_id: SOI4090

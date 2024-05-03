@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sarthak/Multivideo_Objectdetection_MLOPS_Project/mlruns/0/a493cd2b74fc43c48ac2a33bf1f28a40/artifacts
+end_time: 1714642241248
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a493cd2b74fc43c48ac2a33bf1f28a40
+run_name: ambitious-pig-718
+run_uuid: a493cd2b74fc43c48ac2a33bf1f28a40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714642237259
+status: 3
+tags: []
+user_id: SOI4090
