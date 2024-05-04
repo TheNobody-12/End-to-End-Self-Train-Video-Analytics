@@ -16,7 +16,7 @@ EXPOSE 8081
 EXPOSE 8082
 
 RUN torchserve --stop
-RUN torch-model-archiver -f --model-name yolov8n --version 1.0 --serialized-file torchserve/models/detection.onnx --export-path torchserve/model-store --handler torchserve/custom_handler.py
+RUN torch-model-archiver -f --model-name yolov8n --version 1.0 --serialized-file torchserve/models/trained_model_60epoch.onnx --export-path torchserve/model-store --handler torchserve/custom_handler.py
 
 # CMD ["/bin/bash", "./start_script.sh"]
 # CMD ["torchserve", "--start", "--ncs", "--model-store", "torchserve/model-store", "--models", "spaceship=spaceship.mar"]
