@@ -6,6 +6,7 @@ RUN apt-get install --reinstall apt
 WORKDIR /app
 
 COPY . /app
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 RUN pip3 install -r requirements.txt
 RUN dvc init -f
 RUN dvc repro
