@@ -34,7 +34,7 @@ def background_thread():
                         authSource="admin")
     db = client['stream-database']
     print("connected with db")
-    video_names = ["video0", "video1", "video2"]
+    video_names = ["6449140665","6448310845","6448170098"]
     videos_map = create_collections_unique(db, video_names)
     
     print("Generating random sensor values")
@@ -96,11 +96,11 @@ def background_thread():
             dataframes["videoname"] = video_name
             dataframes["predictions"] = outputs
             
-            if (video_name=="video0"):
+            if (video_name=="6449140665"):
                 socketio.emit('passimage0', {'data':[video_name, img_base64_str,  frame_no]}) #mit
-            elif (video_name=="video1"):
+            elif (video_name=="6448310845"):
                 socketio.emit('passimage1', {'data':[video_name, img_base64_str,  frame_no]}) #mit
-            elif (video_name=="video2"):
+            elif (video_name=="6448170098"):
                 socketio.emit('passimage2', {'data':[video_name, img_base64_str,  frame_no]}) #mit
             # commit synchronously
             videos_map[video_name] = [dataframes]

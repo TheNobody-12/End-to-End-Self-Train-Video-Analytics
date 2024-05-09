@@ -10,6 +10,12 @@ I am having a set of videos and kafka producer is taking and passing to kafka se
 
 **its offline streaming project not real time streaming.** but can be made as real time streaming with modifications in producer part
 
+rtmp://cdn87.cloudvms.in:80/live/6448994597
+rtmp://cdn86.cloudvms.in:80/live/6449140665
+rtmp://cdn89.cloudvms.in:80/live/6448170098
+
+
+
 ### Procedure
     docker network create kafka-network
 
